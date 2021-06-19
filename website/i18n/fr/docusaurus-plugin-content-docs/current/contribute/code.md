@@ -1,28 +1,28 @@
 ---
-title: Contribute to the SemApps core
+title: Contribuer au noyau de SemApps
 ---
 
-As a developer, you can choose to use SemApps as a library for your own project, in which case the [guides](../guides/ldp-server.md) will be your best friend.
+En tant que développeur, vous pouvez choisir d'utiliser SemApps comme une bibliothèque pour votre propre projet, dans ce cas les [guides](../guides/ldp-server.md) seront votre meilleur ami.
 
-On the other hand, if you want to contribute to the core of SemApps, this page is for you.
+D'autre part, si vous voulez contribuer au noyau de SemApps, cette page est pour vous.
 
-## Launch the stack locally
+## Lancer SemApps localement
 
-In a few commands, you can launch the full SemApps stack with:
+Les outils suivants vous permettent, en quelques commandes, de lancer entièrement votre SemApps:
 
 - Middleware
 - Frontend ([DMS](../guides/dms.md))
-- A Jena Fuseki instance
+- Une instance Jena Fuseki
 
-### First time
+### La première fois
 
-You will need to install:
+Vous devez installer :
 
 - [docker](https://docs.docker.com/install/)
 - [docker-compose](https://docs.docker.com/compose/install/)
 - [make](https://www.gnu.org/software/make/)
 
-Then you can do:
+Une fois que cela est fait, vous pouvez lancer les commandes suivantes :
 
 ```
 git clone https://github.com/assemblee-virtuelle/semapps.git
@@ -43,11 +43,11 @@ make log
 make stop
 ```
 
-## Getting data
+## Récupérer des données
 
-If you want to have some semantic data to start experimenting, please contact us.
+Si vous souhaitez disposer de quelques données sémantiques pour commencer à tester votre SemApps, veuillez nous contacter.
 
 
-## Getting help
+## Obtenir de l'aide
 
-Our [Riot/Matrix chatroom](https://riot.im/app/#/room/#semapps:matrix.virtual-assembly.org) is the main entry point for all people who want to contribute.
+Notre [salle de chat Riot/Matrix](https://riot.im/app/#/room/#semapps:matrix.virtual-assembly.org) est le principal point d'entrée pour toutes les personnes qui souhaitent apporter leur contribution.
